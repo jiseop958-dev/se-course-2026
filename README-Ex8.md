@@ -23,7 +23,7 @@ EXERCISE 8-3
 3. Buyer ──────▷ Member
    일반화 
 
-4. Transaction ┈┈────▶ PaymentMethod
+4. Transaction ─────▶ PaymentMethod
    의존 / 1 : 1
 
 5. Club ◇──────── Student
