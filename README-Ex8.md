@@ -14,10 +14,10 @@ EXERCISE 8-2
 5. "회원" ┈«include»┈> "구매자" "판매자"
 
 EXERCISE 8-3
-1. Member ───────── Post
+1. Member ─────── Post
    연관 / 1 : 0..*
 
-2. Post ◆──────── PostImage
+2. Post ◆────── PostImage
    합성 / 1 : 0..*
 
 3. Buyer ──────▷ Member
@@ -26,5 +26,5 @@ EXERCISE 8-3
 4. Transaction ─────▶ PaymentMethod
    의존 / 1 : 1
 
-5. Club ◇──────── Student
+5. Club ◇────── Student
    집합 / 1 : *
